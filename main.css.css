@@ -1,0 +1,339 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color:aliceblue;
+}
+
+.header {
+  padding: 10px;
+  text-align: center;
+    background-color:aliceblue;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+.logo {
+  border-radius: 35px;
+  padding: 20px;
+  width: 400px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   
+  }
+
+.navbar {
+  overflow: hidden;
+  background-color:white;
+ 
+}
+
+.navbar a {
+  display: inline-block;
+  color: skyBLUE;
+  text-align: center;
+  padding: 15px 10px;
+  background-color: white;
+  border-style: solid;
+  border-color: skyblue ;
+  margin-left: auto;
+  margin-right: auto;
+  width:18%;
+}
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: white;
+  }
+  body {
+  font-family: univers Light ;
+  margin: 0;
+}
+.welcome {
+  color: gold;
+  font-family: Univers-Light;
+  margin-left: 200px;
+  font-size: 25px;
+}
+
+.about{
+  color: darkorange;
+  font-family: Univers-Light ;
+  margin-left: 700px;
+  font-size: 25px;
+}
+.history {
+  color: darkorange;
+    font-family: Univers-Light;
+  margin-left: 700px;
+  font-size: 25px;
+}
+
+.p {
+  color: Black;
+ font-family: Calibri;
+  margin-left: 190px;
+  padding: 40px 40px;
+  font-size: 20px;
+  
+}
+  .courses h2{
+color: orange;
+font-size: 200%; 
+  text-align: center; 
+  }
+.courses p{
+	color: black;
+	font-size: 150%;
+	text-align: center;
+}
+
+.steps a{
+  float:center;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 50px 50x;
+  width:31%;
+  background-color: skyblue;
+    margin:10px;
+  
+}
+.links a{
+  float:center;
+  font-size:75%;
+  display: inline-block;
+  color: white;
+  width: 28%;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: orange;
+  border-style: solid;
+  border-color: maroon;
+  bottom:100px;
+  margin: 8px;
+}
+.column {
+    float:center;
+  position:relative;
+  display: inline-block;
+  color: white;
+  width: 500 px;
+  text-align: center;
+  padding: 30px 30px;
+  background-color:skyblue;
+  border-style: solid;
+  border-color: skyblue;
+  
+}
+
+.row::after {
+   float:center;
+  position:relative;
+  display: inline-block;
+  color: white;
+  width: 500 px;
+  text-align: center;
+  padding: 30px 30px;
+  background-color: skyblue;
+  border-style: solid;
+  border-color: skyblue;
+}
+
+.column2{
+    float:center;
+  position:relative;
+  display: inline-block;
+  color: white;
+  width: 500 px;
+  text-align: center;
+  padding: 40px 40px;
+  background-color:skyblue;
+  border-style: solid;
+  border-color: skyblue;
+}
+
+.rowc2::after {
+   float:center;
+  position:relative;
+  display: inline-block;
+  color: white;
+  width: 500 px;
+  text-align: center;
+  padding: 30px 30px;
+  background-color: skyblue;
+  border-style: solid;
+  border-color: skyblue
+} 
+.container h2 {
+  color: orange;
+  padding: 5px 5px;
+  font-size: 30px;
+  text-align:center;
+}
+.container p{
+  color: black;
+  width:50;
+  padding: 10px 10px;
+  font-size: 10px;
+  text-align:center;
+ 
+}
+.qualification p{
+  color: orange;
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+.qualification a{
+  color: black;
+ text-align: center;
+ margin-left:400px;
+  font-size: 20px;
+}
+.qualification h2{
+  color: orange;
+  text-align: center;
+  font-size: 25px;
+}
+.qualification h4{
+  
+   color: white;
+    box-sizing: border-box;
+	background-color: skyblue;
+ text-align: center;
+ font-size: 20px;
+  font-family: Univers-Light;
+
+  
+  }
+
+.natalie-info{
+font-size:20px;
+ display:inline-block;
+ margin-bottom:8px;
+ vertical-align:top;
+ Text-align: left;
+   padding: 10px;
+  width: 350px;
+}
+.james-info{
+ font-size:20px;
+ display:inline-block;
+ margin-bottom:8px;
+ vertical-align:top;
+ Text-align: left;
+   padding: 10px;
+  width: 350px;
+}
+.jenny-info{
+ font-size:20px;
+ display:inline-block;
+ margin-bottom:8px;
+ vertical-align:top;
+ Text-align: left;
+   padding: 10px;
+  width: 350px;
+ 
+}
+.andrew-info{
+font-size:20px;
+ display:inline-block;
+ margin-bottom:8px;
+ vertical-align:top;
+ Text-align: left;
+   padding: px;
+  width: 400px;
+}
+.footer{
+	background-color:white;
+	bottom:100px;
+	 position: fixed;
+    left: 0;
+    bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+.footer h4{
+display:  inline;
+ color: black;
+ font-size: 10px;
+ padding: 400px;
+ width: 300px;
+margin-bottom: 100px;
+}
+ .footer h3{
+display: inline;
+ color: black;
+ font-size: 10px;
+ padding: 60px;
+ width: 300px;
+ margin-bottom: 100px;
+}
+.footer p{
+ color: black;
+ font-size: 10px;
+ padding: 2px;
+ width: 1010px;
+ text-align: center;
+}
+.footer h1 {
+	padding:200px;
+  width: 90px;
+  display: inline;
+ }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 1px;
+  border: 1px solid;
+  border-radius: 2px;
+  border-color: maroon;
+  background-color:skyblue;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+input[type=submit] {
+
+  color: orange;
+  padding: 0px 5px;
+  border: maroon;
+  border-radius: 2px;
+  cursor: pointer;
+  text-align: center;
+    font-size: px
+
+}
+
+.container {
+  border-radius: 2px;
+  padding: 1px;
+  color: orange;
+  Text-align: left;
+  font-size: 10px
+}
+.submit{
+text-align: center;
+background-color: aliceblue;
+  font-size: 10px
+
+}
+.container1 h1 {
+	font-size: 20px;
+	color: orange;
+text-align: center;
+}
+ .container1 p{
+	 font-size: 15px;
+	 color: black ;
+	 text-align: center;
+ }
